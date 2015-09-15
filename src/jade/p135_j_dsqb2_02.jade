@@ -1,0 +1,83 @@
+doctype transitional
+html(xmlns="http://www.w3.org/1999/xhtml" xml:lang="en")
+  head
+    title DSQB-2-开通确认页（未开通）
+    include _header
+  body
+    div.pa.pr.wrap.top-up
+      div.pa.header.lt
+        div.pa.balance-icon.ic2
+        div.pa.balance.b2
+          em.text-white 账户余额：
+          em.text-yellow 1000.00
+          em.text-white 元
+        //- a#hdupbtn.pa.hd-up-btn(href="#" onfocus="showdiv('hdup')" onblur="closediv('hdup')" style="z-index=1")
+        //-   img(src="static/images/p135_topup_btn.jpg")
+        //- div.pa.hd-up-btn.img.nom(style="z-index=2")
+        //- div#hdup.pa.hd-up-btn.img.focus(style="visibility:hidden;")
+      div.pa.container
+        form#fm(action="http://www.baidu.com" method="post")
+          div.pa.info.info3.text-white 请选择以下信用额度之一开通（还款期限30天）
+          div.pa.info.credit1.text-white 信用额度：
+          div.pa.credit-bx.pm1
+            a.pa.btn-credit(href="#" onfocus="showdiv('pm1')" onblur="closediv('pm1')" )
+              img(src="static/images/credit-block.png")
+            div.pa.btn-credit
+              img(src="static/images/p135_btn_credit.png")
+            div#pm1.pa.btn-credit.focus(style="visibility:hidden;")
+            div.pa.text.tc.text-white 50元
+          div.pa.credit-bx.pm2
+            a.pa.btn-credit(href="#" onfocus="showdiv('pm2')" onblur="closediv('pm2')" onclick="active('ac2',this)" name="60")
+              img(src="static/images/credit-block.png")
+            div.pa.btn-credit
+              img(src="static/images/p135_btn_credit.png")
+            div#pm2.pa.btn-credit.focus(style="visibility:hidden;")
+            div.pa.text.tc.text-white 50元
+          div.pa.credit-bx.pm3
+            a.pa.btn-credit(href="#" onfocus="showdiv('pm3')" onblur="closediv('pm3')" onclick="active('ac3',this)" name="50")
+              img(src="static/images/credit-block.png")
+            div.pa.btn-credit
+              img(src="static/images/p135_btn_credit.png")
+            div#pm3.pa.btn-credit.focus(style="visibility:hidden;")
+            div.pa.text.tc.text-white 50元
+          div.pa.credit-bx.pm4
+            a.pa.btn-credit(href="#" onfocus="showdiv('pm4')" onblur="closediv('pm4')" onclick="active('ac4',this)" name="150")
+              img(src="static/images/credit-block.png")
+            div.pa.btn-credit
+              img(src="static/images/p135_btn_credit.png")
+            div#pm4.pa.btn-credit.focus(style="visibility:hidden;")
+            div.pa.text.tc.text-white 50元
+          div.pa.credit-bx.pm5
+            a.pa.btn-credit(href="#" onfocus="showdiv('pm5')" onblur="closediv('pm5')" onclick="active('ac5',this)" name="250")
+              img(src="static/images/credit-block.png")
+            div.pa.btn-credit
+              img(src="static/images/p135_btn_credit.png")
+            div#pm5.pa.btn-credit.focus(style="visibility:hidden;")
+            div.pa.text.tc.text-white 50元
+      include _footer
+  script(type='text/javascript').
+    /**
+    * 机顶盒编号
+    * @method base.tbId
+    * @since p53
+    * @type string
+    * @default 00000000000
+    */
+    //base.tbId = window.guangxi ? guangxi.getStbNum() || guangxi.System.newwork.macAddress.replace(/:/g, '').replace(/No Card/g, '') || doc.all.ip.value : '00000000000';
+    /**
+    * 机顶盒类型
+    * @method base.tbType
+    * @since p53
+    * @type string
+    * @default 0000
+    */
+    //base.tbType = window.iPanel ? /(Safari)|(Chrome)|(Firefox)/.test(navigator.userAgent) ? base.tbId.length == 11 && base.tbId.substring(2, 4) == '19' ? '0002' : window.iPanel.getGlobalVar('RESOLUTION_1280_720') ? '0003' : '0002' : '0001' : '0000';
+    //if(base.tbType != (0002 || '0002' || 0003 || '0003'))return false;
+    
+    function showdiv(id) {
+        document.getElementById(id).style.visibility="visible";
+    }
+
+    function closediv(id) {
+        document.getElementById(id).style.visibility="hidden";
+    }

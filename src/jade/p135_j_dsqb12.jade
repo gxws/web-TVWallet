@@ -1,0 +1,67 @@
+doctype transitional
+html(xmlns="http://www.w3.org/1999/xhtml" xml:lang="en")
+  head
+    title DSQB-9-处理中
+    include _header
+  body
+    div.pa.pr.wrap.top-up
+      div.pa.header.lt
+        div.pa.balance-icon.ic2
+        div.pa.balance.b2
+          em.text-white 账户余额：
+          em.text-yellow 1000.00
+          em.text-white 元
+        //- a#hdupbtn.pa.hd-up-btn(href="#" onfocus="showdiv('hdup')" onblur="closediv('hdup')" style="z-index=1")
+        //-   img(src="static/images/p135_topup_btn.jpg")
+        //- div.pa.hd-up-btn.img.nom(style="z-index=2")
+        //- div#hdup.pa.hd-up-btn.img.focus(style="visibility:hidden;")
+      div.pa.container
+        div.pa.icon-waiting
+        div.pa.info-waiting.text-white.tc 处理中，请耐心等待...
+        a.pa.btn-vr(href="#" onfocus="showdiv('btn-vr')" onblur="closediv('btn-vr')")
+          img(src="static/images/p135_btn-vr.png")
+        div.pa.btn-vr.img.nom
+        div#btn-vr.pa.btn-vr.img.focus(style="visibility:hidden;" data-ajax="javascript:;" data-url="http://www.baidu.com")
+      include _footer
+  script(src="../static/public/js/jquery.min.js")
+  script(type='text/javascript').
+    /**
+    * 机顶盒编号
+    * @method base.tbId
+    * @since p53
+    * @type string
+    * @default 00000000000
+    */
+    //base.tbId = window.guangxi ? guangxi.getStbNum() || guangxi.System.newwork.macAddress.replace(/:/g, '').replace(/No Card/g, '') || doc.all.ip.value : '00000000000';
+    /**
+    * 机顶盒类型
+    * @method base.tbType
+    * @since p53
+    * @type string
+    * @default 0000
+    */
+    //base.tbType = window.iPanel ? /(Safari)|(Chrome)|(Firefox)/.test(navigator.userAgent) ? base.tbId.length == 11 && base.tbId.substring(2, 4) == '19' ? '0002' : window.iPanel.getGlobalVar('RESOLUTION_1280_720') ? '0003' : '0002' : '0001' : '0000';
+    //if(base.tbType != (0002 || '0002' || 0003 || '0003'))return false;
+    (function(window,undefined){
+      var time = null,
+          $div = $('#btn-vr');
+      time = setInterval(function(){
+        ajaxgo($div.attr('data-ajax'),function(d){
+          d.status && clearInterval(time);
+          location.href = $div.attr('data-url');
+        },{"status":"1"});
+      },3000)
+    })()
+    
+
+    function ajaxgo (url, fn, demo, data, method, datatype){
+      fn = fn || Fn;
+      url == 'javascript:;' ? fn(demo) : $[method || 'post'](url, data, fn, datatype || 'json');
+    };
+    function showdiv(id) {
+        document.getElementById(id).style.visibility="visible";
+    }
+
+    function closediv(id) {
+        document.getElementById(id).style.visibility="hidden";
+    }

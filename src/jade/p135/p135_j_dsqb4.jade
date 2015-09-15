@@ -1,0 +1,112 @@
+doctype transitional
+html(xmlns="http://www.w3.org/1999/xhtml" xml:lang="en")
+  head
+    title DSQB-3-副机开机提示
+    include ../public/_header
+  body
+    div.pa.pr.wrap.top-up
+      div.pa.header.lt
+        div.pa.balance-icon.ic2
+        div.pa.balance.b2
+          em.text-white 账户余额：
+          em.text-yellow 1000.00
+          em.text-white 元
+        //- a#hdupbtn.pa.hd-up-btn(href="#" onfocus="showdiv('hdup')" onblur="closediv('hdup')" style="z-index=1")
+        //-   img(src="static/images/p135_topup_btn.jpg")
+        //- div.pa.hd-up-btn.img.nom(style="z-index=2")
+        //- div#hdup.pa.hd-up-btn.img.focus(style="visibility:hidden;")
+      div.pa.container.text-white
+        form(action="" method="")
+          div.pa.assay-info 检测到您有副机已停机超过6个月，是否开启副机？
+          div.pa.bx-check
+            div.row
+              div.sub.fix
+                //a.check-btn(href="javascript:;" onfocus="check('foc1')" onblur="uncheck('foc1')" onclick="tag('ipt1','eck1',this)" name="0")
+                //img(src="static/images/dot.gif")
+                a.check-btn(href="javascript:;" data-tag="1" class="active")
+                input(type="checkbox" style="display:none;")
+                //- div.pa.check.img.nom
+                //- div#foc1.pa.check.img.focus
+                //- div#eck1.pa.check.img.eck
+                //- div#eck1.pa.check.img.eckfocus
+                span.text 同意开启 副机12345678910
+              div.sub.fix
+                //a.check-btn(href="javascript:;" onfocus="check('foc1')" onblur="uncheck('foc1')" onclick="tag('ipt1','eck1',this)" name="0")
+                //img(src="static/images/dot.gif")
+                a.check-btn(href="javascript:;" data-tag="0")
+                input(type="checkbox" style="display:none;")
+                //- div.pa.check.img.nom
+                //- div#foc1.pa.check.img.focus
+                //- div#eck1.pa.check.img.eck
+                //- div#eck1.pa.check.img.eckfocus
+                span.text 同意开启 副机12345678910
+          div.pa.tc.ct-bts
+            a.btn.btn-option.J_enabled.active(href="http://www.baidu.com")
+            a.btn.btn-clos.J_enabled.active(href="http://www.weibo.com")
+            span.btn.btn-option.disabled.J_disabled
+            span.btn.btn-clos.disabled.J_disabled
+      include ../public/_footer
+  script(src="../../static/public/js/jquery.min.js")
+  //script(src="../static/public/js/jquery.x.min.js")
+  script(type='text/javascript').
+    /**
+    * 机顶盒编号
+    * @method base.tbId
+    * @since p53
+    * @type string
+    * @default 00000000000
+    */
+    //base.tbId = window.guangxi ? guangxi.getStbNum() || guangxi.System.newwork.macAddress.replace(/:/g, '').replace(/No Card/g, '') || doc.all.ip.value : '00000000000';
+    /**
+    * 机顶盒类型
+    * @method base.tbType
+    * @since p53
+    * @type string
+    * @default 0000
+    */
+    //base.tbType = window.iPanel ? /(Safari)|(Chrome)|(Firefox)/.test(navigator.userAgent) ? base.tbId.length == 11 && base.tbId.substring(2, 4) == '19' ? '0002' : window.iPanel.getGlobalVar('RESOLUTION_1280_720') ? '0003' : '0002' : '0001' : '0000';
+    //- function check(id){
+    //-   document.getElementById(id).style.visibility="visible";
+    //- }
+    //- function uncheck(id){
+    //-   document.getElementById(id).style.visibility="hidden";
+    //- }
+    //- function tag (inputid,id,obj){
+    //-   var _tag = obj.name,
+    //-       ipt = document.getElementById(inputid);
+    //-   if(_tag==1){
+    //-     ipt.checked = 'false';
+    //-     uncheck(id);
+    //-     obj.name=0;
+    //-   }else{
+    //-     ipt.checked = 'true';
+    //-     check(id);
+    //-     obj.name=1;
+    //-   }
+    //- }
+    (function(window, undefined){
+      $(document).on('click','.check-btn',function(){
+        var $this  = $(this),
+            $input = $this.next('input'),
+            tag    = $this.attr('data-tag'),
+            size;
+        $this[tag==0?'addClass' : tag==1?'removeClass': false]('active');
+        $this.attr('data-tag',tag==1?'0': tag==0?'1':false);
+        $input.prop("checked",tag == 1 ? false : tag == 0 ? true : null);
+        size   = $('.bx-check').find('input[type=checkbox]:checked').size();
+        $('.J_enabled')[size ? 'addClass' : 'removeClass']('active');
+        $('.J_disabled')[size ? 'removeClass' : 'addClass']('active');
+      }).on('click','.ct-bts .btn',function(){
+        var $this = $(this),
+            $form = $this.parents('form');
+            $form.attr('action',$this.attr('href')).submit();
+      })
+    })(window)
+    //if(base.tbType != (0002 || '0002' || 0003 || '0003'))return false;
+    function showdiv(id) {
+        document.getElementById(id).style.visibility="visible";
+    }
+
+    function closediv(id) {
+        document.getElementById(id).style.visibility="hidden";
+    }

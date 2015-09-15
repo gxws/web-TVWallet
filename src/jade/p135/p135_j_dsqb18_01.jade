@@ -1,0 +1,60 @@
+doctype transitional
+html(xmlns="http://www.w3.org/1999/xhtml" xml:lang="en")
+  head
+    title DSQB-3-透支额度开通确认（有副机）
+    include ../public/_header
+  body
+    div.pa.pr.wrap.top-up
+      div.pa.header.lt
+        div.pa.balance-icon.ic2
+        div.pa.balance.b2
+          em.text-white 账户余额：
+          em.text-yellow 1000.00
+          em.text-white 元
+        //- a#hdupbtn.pa.hd-up-btn(href="#" onfocus="showdiv('hdup')" onblur="closediv('hdup')" style="z-index=1")
+        //-   img(src="static/images/p135_topup_btn.jpg")
+        //- div.pa.hd-up-btn.img.nom(style="z-index=2")
+        //- div#hdup.pa.hd-up-btn.img.focus(style="visibility:hidden;")
+      div.pa.container
+        form(action="www.baidu.com")
+          .pa.icon-account-01
+          div.pa.info.info4-01
+            em.text-white 账户余额不足，还需
+            em.text-yellow 20.00
+            em.text-white 元。
+          div.pa.info.info5-01
+            em.text-white 由于您消费情况良好，享有
+            em.text-yellow 210
+            em.text-white 元的透支额度特权，现开通透支额度可提前消费哦！
+          div.pa.assay-info-01.text-white 检测到您有副机已停机超过6个月，是否开启副机？
+          div.pa.bx-check-01.text-white
+            p
+              em 同意开启 机顶盒123456 &nbsp;&nbsp;
+              em 同意开启 机顶盒123456 &nbsp;&nbsp;
+            p
+              em 同意开启 机顶盒123456 &nbsp;&nbsp;
+              em 同意开启 机顶盒123456 &nbsp;&nbsp;
+            p
+              em 同意开启 机顶盒123456 &nbsp;&nbsp;
+              em 同意开启 机顶盒123456 &nbsp;&nbsp;
+          div.pa.bx.credits-01
+            input(type="checkbox" checked="checked" disabled="disabled")
+            em.text-white 同意
+            a.link(href="#") 《透支额度电子协议》
+          a#btn-not.pa.btn-dredge(href="javascript:;" onfocus="showdiv('btn-dredge')" onblur="closediv('btn-dredge')")
+            img(src="../static/images/p135_btn_dredge.png")
+          div.pa.btn-dredge.nom
+          div#btn-dredge.pa.btn-dredge.focus(style="z-index:5;visibility:hidden;")
+          a.pa.btn.btn-withhold(href="#" onfocus="showdiv('btn-withhold')" onblur="closediv('btn-withhold')")
+            img(src="../static/images/btn_withhold.jpg")
+          .pa.btn.btn-withhold.nom
+          .pa#btn-withhold.btn.btn-withhold.focus(style="visibility:hidden;")
+      include ../public/_footer
+  script(type='text/javascript').
+    function showdiv(id) {
+        document.getElementById(id).style.visibility="visible";
+    }
+
+    function closediv(id) {
+        document.getElementById(id).style.visibility="hidden";
+    }

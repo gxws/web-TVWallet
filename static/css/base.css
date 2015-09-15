@@ -1,0 +1,747 @@
+/* bx-check */
+.container .bx-check {
+  font-size: 16px;
+  top: 80px;
+  width: 580px;
+  left: 30px;
+}
+.container .bx-check .row {
+  margin-left: -42px;
+  margin-right: -42px;
+}
+.container .bx-check .row .sub {
+  width: 248px;
+  padding: 0 42px 15px;
+  line-height: 25px;
+  float: left;
+}
+.container .bx-check .row .sub .check-btn {
+  float: left;
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background: url(../images/p135_check.png) 0 0 no-repeat;
+}
+.container .bx-check .row .sub .check-btn:focus {
+  background: url(../images/p135_check_focus.png) 0 0 no-repeat;
+}
+.container .bx-check .row .sub .check-btn.active {
+  background: url(../images/p135_checked.png) 0 0 no-repeat;
+}
+.container .bx-check .row .sub .check-btn.active:focus {
+  background: url(../images/p135_checked_focus.png) 0 0 no-repeat;
+}
+.container .bx-check .row .sub .text {
+  display: inline-block;
+  float: left;
+  margin-left: 26px;
+}
+.container .ct-bts {
+  width: 100%;
+  top: 312px;
+  left: 0;
+}
+.container .ct-bts .btn {
+  display: none;
+  width: 165px;
+  height: 70px;
+  margin: 0 10px;
+}
+.container .ct-bts .btn.active {
+  display: inline-block;
+}
+.container .ct-bts .btn.btn-option {
+  background: url(../images/p135_open.png) 0 0 no-repeat;
+}
+.container .ct-bts .btn.btn-option:focus {
+  background: url(../images/p135_open_focus.png) 0 0 no-repeat;
+}
+.container .ct-bts .btn.btn-option.disabled {
+  background: url(../images/p135_open_disabled.png) 0 0 no-repeat;
+}
+.container .ct-bts .btn.btn-clos {
+  background: url(../images/p135_clos.png) 0 0 no-repeat;
+}
+.container .ct-bts .btn.btn-clos:focus {
+  background: url(../images/p135_clos_focus.png) 0 0 no-repeat;
+}
+.container .ct-bts .btn.btn-clos.disabled {
+  background: url(../images/p135_clos_disabled.png) 0 0 no-repeat;
+}
+.container .radio-box {
+  font-size: 20px;
+  left: 44px;
+  top: 162px;
+}
+.container .radio-box .sub {
+  line-height: 23px;
+  display: inline-block;
+  width: 100px;
+}
+.container .radio-box .sub input {
+  display: none;
+}
+.container .radio-box .sub a {
+  float: left;
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  margin-right: 10px;
+  background: url(../images/p135_btn_radio.png) 0 0 no-repeat;
+}
+.container .radio-box .sub a:focus {
+  background: url(../images/p135_btn_radio_focus.png) 0 0 no-repeat;
+}
+.container .radio-box .sub a.active {
+  background: url(../images/p135_btn_radioed.png) 0 0 no-repeat;
+}
+.container .radio-box .sub a.active:focus {
+  background: url(../images/p135_btn_radioed_focus.png) 0 0 no-repeat;
+}
+.container .bx {
+  line-height: 22px;
+}
+.container .bx .check-btn {
+  float: left;
+  margin-right: 10px;
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background: url(../images/p135_check.png) 0 0 no-repeat;
+}
+.container .bx .check-btn:focus {
+  background: url(../images/p135_check_focus.png) 0 0 no-repeat;
+}
+.container .bx .check-btn.active {
+  background: url(../images/p135_checked.png) 0 0 no-repeat;
+}
+.container .bx .check-btn.active:focus {
+  background: url(../images/p135_checked_focus.png) 0 0 no-repeat;
+}
+.container.ued .icon-account {
+  top: 26px;
+}
+.container.ued .info.info4 {
+  top: 32px;
+}
+.container.ued .info.info5 {
+  top: 80px;
+}
+.container.ued .assay-info {
+  font-size: 18px;
+  left: 44px;
+  top: 161px;
+}
+.container.ued .bx-check {
+  top: 189px;
+  left: 45px;
+}
+.container.ued .bx-check .row .sub .text {
+  margin-left: 11px;
+}
+.container.ued .bx.credits {
+  top: 284px;
+}
+
+@media (min-width: 1280px) {
+  .wrap {
+    width: 1280px;
+    height: 720px;
+    background: url(../images/p135_bg_HD.jpg) 0 0 no-repeat;
+  }
+
+  .header {
+    width: 1280px;
+    height: 118px;
+  }
+  .header .balance-icon {
+    width: 48px;
+    height: 47px;
+    background: url(../images/p135_balance_icon_HD_03.jpg) 0 0 no-repeat;
+  }
+  .header .balance-icon.ic1 {
+    left: 631px;
+    top: 61px;
+  }
+  .header .balance-icon.ic2 {
+    left: 782px;
+    top: 61px;
+  }
+  .header .balance em {
+    font-size: 30px;
+  }
+  .header .balance.b1 {
+    left: 688px;
+    top: 77px;
+  }
+  .header .balance.b2 {
+    left: 840px;
+    top: 77px;
+  }
+  .header .hd-up-btn {
+    left: 1009px;
+    top: 50px;
+  }
+  .header .hd-up-btn.img {
+    width: 170px;
+    height: 65px;
+  }
+  .header .hd-up-btn.nom {
+    background: url(../images/p135_topup_btn_HD.jpg) 0 0 no-repeat;
+  }
+  .header .hd-up-btn.focus {
+    background: url(../images/p135_topup_btn_focus_HD.jpg) 0 0 no-repeat;
+  }
+  .header .title {
+    font-size: 30px;
+    left: 110px;
+    top: 77px;
+  }
+
+  .container {
+    width: 1280px;
+    height: 520px;
+    left: 0;
+    top: 118px;
+  }
+  .container .btn.btn-withhold {
+    width: 360px;
+    height: 85px;
+    left: 586px;
+    top: 412px;
+  }
+  .container .btn.btn-withhold.nom {
+    background: url(../images/btn_withhold_HD.png);
+  }
+  .container .btn.btn-withhold.focus {
+    background: url(../images/btn_withhold_focus_HD.png);
+  }
+  .container .info-icon {
+    left: 50%;
+    top: 70px;
+    margin-left: -93px;
+    width: 186px;
+    height: 186px;
+  }
+  .container .info-icon.ic1 {
+    background: url(../images/p135_dsqb1_icon_HD_07.jpg) 0 0 no-repeat;
+  }
+  .container .info-icon.ic2 {
+    height: 194px;
+    background: url(../images/p135_dsqb3_icon2_HD.png) 0 0 no-repeat;
+  }
+  .container .icon-warning {
+    width: 141px;
+    height: 120px;
+    left: 50%;
+    margin-left: -70px;
+    top: 131px;
+    background: url(../images/icon_warning_HD.png);
+  }
+  .container .info {
+    width: 1280px;
+    font-size: 40px;
+    left: 0;
+    top: 300px;
+  }
+  .container .info.info1 {
+    text-align: center;
+    width: 1180px;
+    padding: 0 50px;
+    left: 0;
+    top: 300px;
+  }
+  .container .info.info1 em {
+    font-size: 28px;
+  }
+  .container .info.info2 {
+    width: 1034px;
+    left: 123px;
+    top: 42px;
+  }
+  .container .info.info4 {
+    width: 1034px;
+    left: 181px;
+    top: 78px;
+  }
+  .container .info.info5 {
+    width: 1034px;
+    left: 123px;
+    top: 157px;
+  }
+  .container .info.credit {
+    font-size: 28px;
+    left: 123px;
+    top: 198px;
+  }
+  .container .ok,
+  .container .topupbtn-lg {
+    left: 525px;
+    top: 412px;
+  }
+  .container .ok.img,
+  .container .topupbtn-lg.img {
+    width: 230px;
+    height: 85px;
+  }
+  .container .ok.nom,
+  .container .topupbtn-lg.nom {
+    background: url(../images/p135_topup_btn_lg_HD.jpg) 0 0 no-repeat;
+  }
+  .container .ok.focus,
+  .container .topupbtn-lg.focus {
+    background: url(../images/p135_topup_btn_lg_focus_HD.jpg) 0 0 no-repeat;
+  }
+  .container .ok.nom {
+    background: url(../images/p135_ok_btn_HD.png) 0 0 no-repeat;
+  }
+  .container .ok.focus {
+    background: url(../images/p135_ok_btn_focus_HD.png) 0 0 no-repeat;
+  }
+  .container .assay-info {
+    font-size: 36px;
+    left: 235px;
+    top: 29px;
+  }
+  .container .bx-check {
+    font-size: 28px;
+    top: 95px;
+    left: 222px;
+    width: 834px;
+  }
+  .container .bx-check .row {
+    margin-left: -25px;
+    margin-right: -25px;
+  }
+  .container .bx-check .row .sub {
+    width: 390px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 22px;
+    line-height: 30px;
+  }
+  .container .bx-check .row .sub .check-btn {
+    width: 30px;
+    height: 30px;
+    background: url(../images/p135_check_HD.png) 0 0 no-repeat;
+  }
+  .container .bx-check .row .sub .check-btn:focus {
+    background: url(../images/p135_check_focus_HD.png) 0 0 no-repeat;
+  }
+  .container .bx-check .row .sub .check-btn.active {
+    background: url(../images/p135_checked_HD.png) 0 0 no-repeat;
+  }
+  .container .bx-check .row .sub .check-btn.active:focus {
+    background: url(../images/p135_checked_focus_HD.png) 0 0 no-repeat;
+  }
+  .container .bx-check .row .sub .text {
+    display: inline-block;
+    float: left;
+    margin-left: 10px;
+  }
+  .container .ct-bts {
+    width: 100%;
+    top: 412px;
+    left: 0;
+  }
+  .container .ct-bts .btn {
+    width: 230px;
+    height: 85px;
+    margin: 0 8px;
+  }
+  .container .ct-bts .btn.btn-option {
+    background: url(../images/p135_open_HD.png) 0 0 no-repeat;
+  }
+  .container .ct-bts .btn.btn-option:focus {
+    background: url(../images/p135_open_focus_HD.png) 0 0 no-repeat;
+  }
+  .container .ct-bts .btn.btn-option.disabled {
+    background: url(../images/p135_open_disabled_HD.png) 0 0 no-repeat;
+  }
+  .container .ct-bts .btn.btn-clos {
+    background: url(../images/p135_clos_HD.png) 0 0 no-repeat;
+  }
+  .container .ct-bts .btn.btn-clos:focus {
+    background: url(../images/p135_clos_focus_HD.png) 0 0 no-repeat;
+  }
+  .container .ct-bts .btn.btn-clos.disabled {
+    background: url(../images/p135_clos_disabled_HD.png) 0 0 no-repeat;
+  }
+  .container .status-icon {
+    width: 120px;
+    height: 120px;
+    left: 50%;
+    margin-left: -60px;
+  }
+  .container .status-icon.icon-fail {
+    background: url(../images/p135_icon_fail_HD.png) 0 0 no-repeat;
+  }
+  .container .status-icon.icon-fail.fail1 {
+    top: 53px;
+  }
+  .container .status-icon.icon-succeed {
+    background: url(../images/p135_icon_succeed_HD.png) 0 0 no-repeat;
+  }
+  .container .status-icon.icon-succeed.succeed1 {
+    top: 22px;
+  }
+  .container .status-icon.icon-succeed.succeed1 {
+    top: 42px;
+  }
+  .container .status-info {
+    left: 0;
+    width: 100%;
+    font-size: 44px;
+  }
+  .container .status-info.fail1 {
+    top: 188px;
+  }
+  .container .status-info.succeed1 {
+    top: 180px;
+  }
+  .container .status-info.succeed2 {
+    top: 176px;
+  }
+  .container .text-in {
+    font-size: 36px;
+  }
+  .container .text-in.loc {
+    left: 439px;
+    top: 245px;
+  }
+  .container .text-in.deadline {
+    left: 439px;
+    top: 297px;
+  }
+  .container .text-in.start-time {
+    left: 439px;
+    top: 351px;
+  }
+  .container .text-in.sum {
+    left: 492px;
+    top: 261px;
+  }
+  .container .text-in.date {
+    left: 492px;
+    top: 316px;
+  }
+  .container .btn-next {
+    left: 50%;
+    margin-left: -115px;
+    top: 414px;
+  }
+  .container .btn-next.img {
+    width: 230px;
+    height: 85px;
+  }
+  .container .btn-next.nom {
+    background: url(../images/p135_btn_next_HD.png) 0 0 no-repeat;
+  }
+  .container .btn-next.focus {
+    background: url(../images/p135_btn_next_focus_HD.png) 0 0 no-repeat;
+  }
+  .container .icon-waiting {
+    width: 190px;
+    height: 190px;
+    left: 50%;
+    top: 96px;
+    margin-left: -95px;
+    background: url(../images/p135_icon-wating_HD.png) 0 0 no-repeat;
+  }
+  .container .info-waiting {
+    top: 312px;
+    font-size: 40px;
+    width: 100%;
+  }
+  .container .btn-vr {
+    left: 50%;
+    top: 412px;
+    margin-left: -115px;
+  }
+  .container .btn-vr.img {
+    width: 230px;
+    height: 85px;
+  }
+  .container .btn-vr.nom {
+    background: url(../images/p135_btn-vr_HD.png) 0 0 no-repeat;
+  }
+  .container .btn-vr.focus {
+    background: url(../images/p135_btn-vr_focus_HD.png) 0 0 no-repeat;
+  }
+  .container .radio-box {
+    top: 198px;
+    left: 263px;
+    font-size: 28px;
+  }
+  .container .radio-box .sub {
+    width: 152px;
+    line-height: 30px;
+  }
+  .container .radio-box .sub a {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    background: url(../images/p135_btn_radio_HD.png) 0 0 no-repeat;
+  }
+  .container .radio-box .sub a:focus {
+    background: url(../images/p135_btn_radio_focus_HD.png) 0 0 no-repeat;
+  }
+  .container .radio-box .sub a.active {
+    background: url(../images/p135_btn_radioed_HD.png) 0 0 no-repeat;
+  }
+  .container .radio-box .sub a.active:focus {
+    background: url(../images/p135_btn_radioed_focus_HD.png) 0 0 no-repeat;
+  }
+  .container .bx {
+    line-height: 30px;
+    font-size: 28px;
+    width: 400px;
+    left: 123px;
+  }
+  .container .bx.merge {
+    left: 123px;
+    top: 287px;
+  }
+  .container .bx.credits {
+    left: 123px;
+    top: 300px;
+  }
+  .container .bx .check-btn {
+    float: left;
+    margin-right: 10px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url(../images/p135_check_HD.png) 0 0 no-repeat;
+  }
+  .container .bx .check-btn:focus {
+    background: url(../images/p135_check_focus_HD.png) 0 0 no-repeat;
+  }
+  .container .bx .check-btn.active {
+    background: url(../images/p135_checked_HD.png) 0 0 no-repeat;
+  }
+  .container .bx .check-btn.active:focus {
+    background: url(../images/p135_checked_focus_HD.png) 0 0 no-repeat;
+  }
+  .container .btn-dredge {
+    left: 334px;
+    top: 412px;
+    width: 230px;
+    height: 85px;
+  }
+  .container .btn-dredge.nom {
+    background: url(../images/p135_btn_dredge_HD.png) 0 0 no-repeat;
+  }
+  .container .btn-dredge.focus {
+    background: url(../images/p135_btn_dredge_focus_HD.png) 0 0 no-repeat;
+  }
+  .container .btn-dredge.not {
+    background: url(../images/p135_btn_dredge_not_HD.png) 0 0 no-repeat;
+  }
+  .container .title-name {
+    font-size: 40px;
+  }
+  .container .customer-name {
+    left: 280px;
+    top: 57px;
+  }
+  .container .stb-nub {
+    left: 280px;
+    top: 118px;
+  }
+  .container .topup-title {
+    left: 280px;
+    top: 238px;
+  }
+  .container .topup-btn {
+    width: 185px;
+    height: 115px;
+  }
+  .container .topup-btn.pm1 {
+    left: 459px;
+    top: 195px;
+  }
+  .container .topup-btn.pm2 {
+    left: 644px;
+    top: 195px;
+  }
+  .container .topup-btn.pm3 {
+    left: 829px;
+    top: 195px;
+  }
+  .container .topup-btn.nom {
+    background: url(../images/p135_topup_btn_HD.png) 0 0 no-repeat;
+  }
+  .container .topup-btn.focus {
+    background: url(../images/p135_topup_btn_focus_HD.png) 0 0 no-repeat;
+  }
+  .container .topup-btn.text {
+    font-size: 40px;
+    top: 0;
+    line-height: 115px;
+  }
+  .container .oter {
+    width: 480px;
+    top: 355px;
+  }
+  .container .ipt-text {
+    top: 330px;
+    left: 459px;
+    font-size: 40px;
+    width: 265px;
+    height: 75px;
+    background: url(../images/p135_input_bg_HD.png) 0 0 no-repeat;
+  }
+  .container .ipt-focus {
+    width: 315px;
+    height: 95px;
+    left: 459px;
+    top: 330px;
+    background: url(../images/p135_input_bg_focus_HD.png) 0 0 no-repeat;
+  }
+  .container .btn-ok {
+    left: 779px;
+    top: 334px;
+  }
+  .container .btn-ok.img {
+    width: 230px;
+    height: 85px;
+  }
+  .container .btn-ok.nom {
+    background: url(../images/p135_ok_btn_HD.png) 0 0 no-repeat;
+  }
+  .container .btn-ok.focus {
+    background: url(../images/p135_ok_btn_focus_HD.png) 0 0 no-repeat;
+  }
+  .container .cont-text {
+    width: 1070px;
+    height: 367px;
+    left: 110px;
+    top: 37px;
+  }
+  .container .cont-text .p-indent {
+    text-indent: 56px;
+  }
+  .container .cont-text p {
+    font-size: 28px;
+    line-height: 34px;
+  }
+  .container .line {
+    width: 1060px;
+    left: 110px;
+    top: 404px;
+  }
+  .container .pg {
+    width: 106px;
+    height: 61px;
+  }
+  .container .pg.prev {
+    left: 807px;
+    top: 406px;
+  }
+  .container .pg.next {
+    left: 913px;
+    top: 406px;
+  }
+  .container .prev.nom {
+    background: url(../images/p135_pg_prev_HD.png);
+  }
+  .container .prev.focus {
+    background: url(../images/p135_pg_prev_focus_HD.png);
+  }
+  .container .next.nom {
+    background: url(../images/p135_pg_next_HD.png);
+  }
+  .container .next.focus {
+    background: url(../images/p135_pg_next_focus_HD.png);
+  }
+  .container .page {
+    width: 1170px;
+    top: 425px;
+  }
+  .container .page em {
+    font-size: 24px;
+  }
+  .container .error {
+    font-size: 30px;
+    top: 430px;
+    left: 472px;
+  }
+  .container .icon-account {
+    width: 47px;
+    height: 49px;
+    background: url(../images/p135_account_icon_HD.png);
+    left: 123px;
+    top: 74px;
+  }
+  .container.ued .icon-account {
+    top: 22px;
+  }
+  .container.ued .info.info4 {
+    top: 22px;
+  }
+  .container.ued .info.info5 {
+    top: 95px;
+  }
+  .container.ued .assay-info {
+    font-size: 28px;
+    left: 123px;
+    top: 230px;
+  }
+  .container.ued .bx-check {
+    top: 272px;
+    left: 123px;
+  }
+  .container.ued .bx-check .row .sub .text {
+    margin-left: 11px;
+  }
+  .container.ued .bx.credits {
+    top: 370px;
+  }
+
+  .footer {
+    width: 1280px;
+    height: 82px;
+    top: 638px;
+    left: 0;
+    background: url(../images/p135_footer_bg_HD.jpg) 0 0 no-repeat;
+  }
+  .footer .img {
+    width: 120px;
+    height: 55px;
+  }
+  .footer .btn-index {
+    left: 130px;
+  }
+  .footer .btn-index.nom {
+    background: url(../images/p135_footer_index_HD.jpg) 0 0 no-repeat;
+  }
+  .footer .btn-index.focus {
+    background: url(../images/p135_footer_index_focus_HD.jpg) 0 0 no-repeat;
+  }
+  .footer .btn-home {
+    left: 250px;
+  }
+  .footer .btn-home.nom {
+    background: url(../images/p135_footer_home_HD.jpg) 0 0 no-repeat;
+  }
+  .footer .btn-home.focus {
+    background: url(../images/p135_footer_home_focus_HD.jpg) 0 0 no-repeat;
+  }
+  .footer .btn-back {
+    left: 370px;
+  }
+  .footer .btn-back.nom {
+    background: url(../images/p135_footer_back_HD.jpg) 0 0 no-repeat;
+  }
+  .footer .btn-back.focus {
+    background: url(../images/p135_footer_back_focus_HD.jpg) 0 0 no-repeat;
+  }
+  .footer .btn-index.focus,
+  .footer .btn-home.focus,
+  .footer .btn-back.focus {
+    visibility: hidden;
+  }
+}
+
+/*# sourceMappingURL=base.css.map */

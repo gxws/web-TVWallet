@@ -1,0 +1,68 @@
+doctype transitional
+html(xmlns="http://www.w3.org/1999/xhtml" xml:lang="en")
+  head
+    title DSQB-8-选择充值金额
+    include _header
+  body
+    div.pa.pr.wrap.top-up
+      div.pa.header.lt
+        div.pa.title.text-white 账户合并电子协议
+        div.pa.balance-icon.ic2
+        div.pa.balance.b2
+          em.text-white 账户余额：
+          em.text-yellow 1000.00
+          em.text-white 元
+        //- a#hdupbtn.pa.hd-up-btn(href="#" onfocus="showdiv('hdup')" onblur="closediv('hdup')" style="z-index=1")
+        //-   img(src="static/images/p135_topup_btn.jpg")
+        //- div.pa.hd-up-btn.img.nom(style="z-index=2")
+        //- div#hdup.pa.hd-up-btn.img.focus(style="visibility:hidden;")
+      div.pa.container
+        div#text1.pa.cont-text.text-white(style="visibility:visible;")
+          p.p-indent 网视支付服务（以下简称本服务）是由网视支付（中国）网络技术有限公司（以下简称本公司）向网视支付用户提供的网视支付软件系统（以下简称本系统）及(或)附随的货款代收代付的中介服务。 本协议由您和本公司签订。
+          p 一、声明与承诺
+          p.p-indent （一）本协议已对与您的权益有或可能具有重大关系的条款，及对本公司具有或可能具有免责或限制责任的条款用粗体字予以标注，请您注意。您确认，在您注册成为网视支付用户以接受本服 务，或您以其他本公司允许的方式实际使用本服务前，您已充分阅读、理解并接受本协议的全部内容，一旦您使用本服务，即表示您同意遵循本协议之所有约定。您已充分阅读、理解并接受本协议的全部内容，一旦您使用本服务，即表示您同意遵循本协议之所有约定。
+        div#text2.pa.cont-text.text-white(style="visibility:hidden;")
+          p.p-indent 网视支付服务（以下简称本服务）是由网视支付（中国）网络技术有34523452345324534户提供的网视支付软件系统（以下简称本系统）及(或)附随的货款代收代付的中介服务。 本协议由您和本公司签订。
+          p 二、声明与承诺
+          p.p-indent （二）本协议已对与您的权益34523452345324534能具有免责或34523452345324534您注意。您确认，在您注册成为网视支付用户以接受本服 务，或您以其他本公司允许的方式实际使用本服务前，您已充分阅读、理解并接受本协议的全部内容，一旦您使用本服务，即表示您同意遵循本协议之所有约定。您已充分阅读、理解并接受本协议的全部内容，一旦您使用本服务，即表示您同意遵循本协议之所有约定。
+        img.pa.line(src="static/images/p135_line.png")
+        a.pa.pg.prev(href="#"  onblur="closediv('prev')" onfocus="showdiv('prev')")
+          img(src="static/images/p135_pg_prev.png")
+        div.pa.pg.prev.nom
+        div#prev.pa.pg.prev.focus(style="visibility:hidden;")
+        a.pa.pg.next(href="#"  onblur="closediv('next')" onfocus="showdiv('next')")
+          img(src="static/images/p135_pg_next.png")
+        div.pa.pg.next.nom
+        div#next.pa.pg.next.focus(style="visibility:hidden;")
+        div.pa.page
+          em.text-white 当前页码
+          em.text-yellow 1
+          em.text-white /
+          em.text-white 2
+      include _footer
+  script(type='text/javascript').
+    /**
+    * 机顶盒编号
+    * @method base.tbId
+    * @since p53
+    * @type string
+    * @default 00000000000
+    */
+    //base.tbId = window.guangxi ? guangxi.getStbNum() || guangxi.System.newwork.macAddress.replace(/:/g, '').replace(/No Card/g, '') || doc.all.ip.value : '00000000000';
+    /**
+    * 机顶盒类型
+    * @method base.tbType
+    * @since p53
+    * @type string
+    * @default 0000
+    */
+    //base.tbType = window.iPanel ? /(Safari)|(Chrome)|(Firefox)/.test(navigator.userAgent) ? base.tbId.length == 11 && base.tbId.substring(2, 4) == '19' ? '0002' : window.iPanel.getGlobalVar('RESOLUTION_1280_720') ? '0003' : '0002' : '0001' : '0000';
+    //if(base.tbType != (0002 || '0002' || 0003 || '0003'))return false;
+    var nb = 1;
+    function showdiv(id) {
+        document.getElementById(id).style.visibility="visible";
+    }
+
+    function closediv(id) {
+        document.getElementById(id).style.visibility="hidden";
+    }
