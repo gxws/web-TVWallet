@@ -118,6 +118,17 @@
 .container .bx .check-btn.active:focus {
   background: url(../images/p135_checked_focus.png) 0 0 no-repeat;
 }
+.container.selected .icon-account {
+  top: 26px;
+  left: 73px;
+}
+.container.selected .info.info4 {
+  top: 26px;
+  left: 107px;
+}
+.container.selected .info.info5 {
+  top: 80px;
+}
 .container.ued .icon-account {
   top: 26px;
 }
@@ -543,7 +554,7 @@
   }
   .container .customer-name {
     left: 280px;
-    top: 57px;
+    top: 67px;
   }
   .container .stb-nub {
     left: 280px;
@@ -674,6 +685,14 @@
     left: 123px;
     top: 74px;
   }
+  .container.selected .icon-account {
+    top: 8px;
+    left: 280px;
+  }
+  .container.selected .info.info4 {
+    top: 10px;
+    left: 330px;
+  }
   .container.ued .icon-account {
     top: 22px;
   }
@@ -697,6 +716,11 @@
   }
   .container.ued .bx.credits {
     top: 370px;
+  }
+  .container .text-info {
+    font-size: 24px;
+    left: 280px;
+    top: 472px;
   }
 
   .footer {

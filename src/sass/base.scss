@@ -95,7 +95,21 @@
 			&.active:focus{background:url(../images/p135_checked_focus.png) 0 0 no-repeat;}
 		}
 	}
-	
+	&.selected{
+		.icon-account{
+			top:26px;
+			left:73px;
+		}
+		.info{
+			&.info4{
+				top:26px;
+				left:107px;
+			}
+			&.info5{
+				top:80px;
+			}
+		}
+	}
 	&.ued{
 		.icon-account{
 			top:26px;
@@ -432,7 +446,7 @@
 			&.not{background:url(../images/p135_btn_dredge_not_HD.png) 0 0 no-repeat;}
 		}
 		.title-name{font-size:40px;}
-		.customer-name{left:280px;top:57px;}
+		.customer-name{left:280px;top:67px;}
 		.stb-nub{left:280px;top:118px;}
 		.topup-title{left:280px;top:238px;}
 		.topup-btn{
@@ -497,6 +511,19 @@
 			left:123px;
 			top:74px;
 		}
+		&.selected{
+			.icon-account{
+				top:8px;
+				left:280px;
+			}
+			.info{
+				&.info4{
+					top:10px;
+					left:330px;
+				}
+				
+			}
+		}
 		&.ued{
 			.icon-account{
 				top:22px;
@@ -528,6 +555,11 @@
 			.bx.credits{
 				top:370px;
 			}
+		}
+		.text-info{
+			font-size:24px;
+			left:280px;
+			top:472px;
 		}
  	}
 
