@@ -275,6 +275,9 @@
     left: 181px;
     top: 78px;
   }
+  .container .info.info4.at {
+    width: 830px;
+  }
   .container .info.info5 {
     width: 1034px;
     left: 123px;
@@ -554,15 +557,15 @@
   }
   .container .customer-name {
     left: 280px;
-    top: 67px;
+    top: 107px;
   }
   .container .stb-nub {
     left: 280px;
-    top: 118px;
+    top: 163px;
   }
   .container .topup-title {
     left: 280px;
-    top: 238px;
+    top: 258px;
   }
   .container .topup-btn {
     width: 185px;
@@ -570,15 +573,15 @@
   }
   .container .topup-btn.pm1 {
     left: 459px;
-    top: 195px;
+    top: 215px;
   }
   .container .topup-btn.pm2 {
     left: 644px;
-    top: 195px;
+    top: 215px;
   }
   .container .topup-btn.pm3 {
     left: 829px;
-    top: 195px;
+    top: 215px;
   }
   .container .topup-btn.nom {
     background: url(../images/p135_topup_btn_HD.png) 0 0 no-repeat;

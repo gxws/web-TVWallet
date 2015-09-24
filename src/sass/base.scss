@@ -253,6 +253,9 @@
  				width:1034px;
  				left:181px;
  				top:78px;
+ 				&.at{
+ 					width:830px;
+ 				}
  			}
 
  			&.info5{
@@ -446,15 +449,15 @@
 			&.not{background:url(../images/p135_btn_dredge_not_HD.png) 0 0 no-repeat;}
 		}
 		.title-name{font-size:40px;}
-		.customer-name{left:280px;top:67px;}
-		.stb-nub{left:280px;top:118px;}
-		.topup-title{left:280px;top:238px;}
+		.customer-name{left:280px;top:107px;}
+		.stb-nub{left:280px;top:163px;}
+		.topup-title{left:280px;top:258px;}
 		.topup-btn{
 			width:185px;
 			height:115px;
-			&.pm1{left:459px;top:195px;}
-			&.pm2{left:644px;top:195px;}
-			&.pm3{left:829px;top:195px;}
+			&.pm1{left:459px;top:215px;}
+			&.pm2{left:644px;top:215px;}
+			&.pm3{left:829px;top:215px;}
 			&.nom{background:url(../images/p135_topup_btn_HD.png) 0 0 no-repeat}
 			&.focus{background:url(../images/p135_topup_btn_focus_HD.png) 0 0 no-repeat}
 			&.text{font-size:40px;top:0;line-height:115px;}
