@@ -124,7 +124,8 @@
 }
 .container.selected .info.info4 {
   top: 26px;
-  left: 107px;
+  left: 73px;
+  text-indent: 48px;
 }
 .container.selected .info.info5 {
   top: 80px;
@@ -694,7 +695,8 @@
   }
   .container.selected .info.info4 {
     top: 10px;
-    left: 330px;
+    left: 280px;
+    text-indent: 70px;
   }
   .container.ued .icon-account {
     top: 22px;
