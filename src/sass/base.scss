@@ -98,12 +98,12 @@
 	&.selected{
 		.icon-account{
 			top:26px;
-			left:73px;
+			left:30px;
 		}
 		.info{
 			&.info4{
 				top:26px;
-				left:73px;
+				left:30px;
 				text-indent: 48px;
 			}
 			&.info5{
@@ -255,7 +255,7 @@
  				left:181px;
  				top:78px;
  				&.at{
- 					width:830px;
+ 					width:1060px;
  				}
  			}
 
@@ -450,25 +450,25 @@
 			&.not{background:url(../images/p135_btn_dredge_not_HD.png) 0 0 no-repeat;}
 		}
 		.title-name{font-size:40px;}
-		.customer-name{left:280px;top:107px;}
-		.stb-nub{left:280px;top:163px;}
-		.topup-title{left:280px;top:258px;}
+		.customer-name{left:112px;top:137px;}
+		.stb-nub{left:112px;top:195px;}
+		.topup-title{left:112px;top:288px;}
 		.topup-btn{
 			width:185px;
 			height:115px;
-			&.pm1{left:459px;top:215px;}
-			&.pm2{left:644px;top:215px;}
-			&.pm3{left:829px;top:215px;}
+			&.pm1{left:291px;top:245px;}
+			&.pm2{left:476px;top:245px;}
+			&.pm3{left:661px;top:245px;}
 			&.nom{background:url(../images/p135_topup_btn_HD.png) 0 0 no-repeat}
 			&.focus{background:url(../images/p135_topup_btn_focus_HD.png) 0 0 no-repeat}
 			&.text{font-size:40px;top:0;line-height:115px;}
 		}
-		.oter{width:480px;top:355px;}
-		.ipt-text{top:330px;left:459px;font-size:40px;width:265px;height:75px;background:url(../images/p135_input_bg_HD.png) 0 0 no-repeat;}
- 		.ipt-focus{width:315px;height:95px;left:459px;top:330px;background:url(../images/p135_input_bg_focus_HD.png) 0 0 no-repeat;}
+		.oter{width:313px;top:385px;}
+		.ipt-text{top:360px;left:291px;font-size:40px;width:265px;height:75px;background:url(../images/p135_input_bg_HD.png) 0 0 no-repeat;}
+ 		.ipt-focus{width:315px;height:95px;left:291px;top:360px;background:url(../images/p135_input_bg_focus_HD.png) 0 0 no-repeat;}
  		.btn-ok{
- 			left:779px;
- 			top:334px;
+ 			left:611px;
+ 			top:364px;
  			&.img{width:230px;height:85px;}
  			&.nom{background:url(../images/p135_ok_btn_HD.png) 0 0 no-repeat}
  			&.focus{background:url(../images/p135_ok_btn_focus_HD.png) 0 0 no-repeat}
@@ -507,7 +507,7 @@
 			top:425px;
 			em{font-size:24px;}
 		}
-		.error{font-size:30px;top:430px;left:472px;}
+		.error{font-size:30px;top:460px;left:304px;}
 		.icon-account{
 			width:47px;
 			height:49px;
@@ -517,13 +517,13 @@
 		}
 		&.selected{
 			.icon-account{
-				top:8px;
-				left:280px;
+				top:20px;
+				left:112px;
 			}
 			.info{
 				&.info4{
-					top:10px;
-					left:280px;
+					top:26px;
+					left:112px;
 					text-indent:70px;
 				}
 				

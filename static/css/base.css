@@ -120,11 +120,11 @@
 }
 .container.selected .icon-account {
   top: 26px;
-  left: 73px;
+  left: 30px;
 }
 .container.selected .info.info4 {
   top: 26px;
-  left: 73px;
+  left: 30px;
   text-indent: 48px;
 }
 .container.selected .info.info5 {
@@ -277,7 +277,7 @@
     top: 78px;
   }
   .container .info.info4.at {
-    width: 830px;
+    width: 1060px;
   }
   .container .info.info5 {
     width: 1034px;
@@ -557,32 +557,32 @@
     font-size: 40px;
   }
   .container .customer-name {
-    left: 280px;
-    top: 107px;
+    left: 112px;
+    top: 137px;
   }
   .container .stb-nub {
-    left: 280px;
-    top: 163px;
+    left: 112px;
+    top: 195px;
   }
   .container .topup-title {
-    left: 280px;
-    top: 258px;
+    left: 112px;
+    top: 288px;
   }
   .container .topup-btn {
     width: 185px;
     height: 115px;
   }
   .container .topup-btn.pm1 {
-    left: 459px;
-    top: 215px;
+    left: 291px;
+    top: 245px;
   }
   .container .topup-btn.pm2 {
-    left: 644px;
-    top: 215px;
+    left: 476px;
+    top: 245px;
   }
   .container .topup-btn.pm3 {
-    left: 829px;
-    top: 215px;
+    left: 661px;
+    top: 245px;
   }
   .container .topup-btn.nom {
     background: url(../images/p135_topup_btn_HD.png) 0 0 no-repeat;
@@ -596,12 +596,12 @@
     line-height: 115px;
   }
   .container .oter {
-    width: 480px;
-    top: 355px;
+    width: 313px;
+    top: 385px;
   }
   .container .ipt-text {
-    top: 330px;
-    left: 459px;
+    top: 360px;
+    left: 291px;
     font-size: 40px;
     width: 265px;
     height: 75px;
@@ -610,13 +610,13 @@
   .container .ipt-focus {
     width: 315px;
     height: 95px;
-    left: 459px;
-    top: 330px;
+    left: 291px;
+    top: 360px;
     background: url(../images/p135_input_bg_focus_HD.png) 0 0 no-repeat;
   }
   .container .btn-ok {
-    left: 779px;
-    top: 334px;
+    left: 611px;
+    top: 364px;
   }
   .container .btn-ok.img {
     width: 230px;
@@ -679,8 +679,8 @@
   }
   .container .error {
     font-size: 30px;
-    top: 430px;
-    left: 472px;
+    top: 460px;
+    left: 304px;
   }
   .container .icon-account {
     width: 47px;
@@ -690,12 +690,12 @@
     top: 74px;
   }
   .container.selected .icon-account {
-    top: 8px;
-    left: 280px;
+    top: 20px;
+    left: 112px;
   }
   .container.selected .info.info4 {
-    top: 10px;
-    left: 280px;
+    top: 26px;
+    left: 112px;
     text-indent: 70px;
   }
   .container.ued .icon-account {
