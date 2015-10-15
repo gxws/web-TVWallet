@@ -862,6 +862,13 @@ body {
   left: 159px;
 }
 
+.container .error_01 {
+  font-size: 20px;
+  color: red;
+  top: 350px;
+  left: 155px;
+}
+
 .container .btn.btn-withhold {
   top: 311px;
   left: 280px;
