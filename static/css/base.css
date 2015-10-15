@@ -138,7 +138,7 @@ body {
   top: 0;
   width: 640px;
   height: 526px;
-  background: url(../static/images/p135_bg.jpg);
+  background: url(../images/p135_bg.jpg);
 }
 
 /* header */
@@ -150,7 +150,7 @@ body {
 .header .balance-icon {
   width: 30px;
   height: 30px;
-  background: url(../static/images/p135_balance_icon_03.jpg);
+  background: url(../images/p135_balance_icon_03.jpg);
 }
 
 .header .balance-icon.ic1 {
@@ -188,11 +188,11 @@ body {
 }
 
 .header .hd-up-btn.nom {
-  background: url(../static/images/p135_topup_btn.jpg);
+  background: url(../images/p135_topup_btn.jpg);
 }
 
 .header .hd-up-btn.focus {
-  background: url(../static/images/p135_topup_btn_focus.jpg);
+  background: url(../images/p135_topup_btn_focus.jpg);
   z-index: 5;
 }
 
@@ -218,11 +218,11 @@ body {
 }
 
 .container .info-icon.ic1 {
-  background: url(../static/images/p135_dsqb1_icon_07.jpg);
+  background: url(../images/p135_dsqb1_icon_07.jpg);
 }
 
 .container .info-icon.ic2 {
-  background: url(../static/images/p135_dsqb3_icon2.png);
+  background: url(../images/p135_dsqb3_icon2.png);
 }
 
 .container .icon-warning {
@@ -230,7 +230,7 @@ body {
   top: 91px;
   width: 107px;
   height: 91px;
-  background: url(../static/images/icon_warning.png);
+  background: url(../images/icon_warning.png);
 }
 
 .container .info {
@@ -306,7 +306,7 @@ body {
   top: 94px;
   width: 119px;
   height: 119px;
-  background: url(../static/images/p135_icon-wating.png);
+  background: url(../images/p135_icon-wating.png);
 }
 
 .container .info-waiting {
@@ -327,12 +327,12 @@ body {
 }
 
 .container .btn-vr.nom {
-  background: url(../static/images/p135_btn-vr.png);
+  background: url(../images/p135_btn-vr.png);
   z-index: 1;
 }
 
 .container .btn-vr.focus {
-  background: url(../static/images/p135_btn-vr_focus.png);
+  background: url(../images/p135_btn-vr_focus.png);
   z-index: 5;
 }
 
@@ -351,20 +351,20 @@ body {
 }
 
 .container .topupbtn-lg.nom {
-  background: url(../static/images/p135_topup_btn_lg.jpg);
+  background: url(../images/p135_topup_btn_lg.jpg);
 }
 
 .container .topupbtn-lg.focus {
-  background: url(../static/images/p135_topup_btn_lg_focus.jpg);
+  background: url(../images/p135_topup_btn_lg_focus.jpg);
   z-index: 5;
 }
 
 .container .ok.nom {
-  background: url(../static/images/p135_ok_btn.png);
+  background: url(../images/p135_ok_btn.png);
 }
 
 .container .ok.focus {
-  background: url(../static/images/p135_ok_btn_focus.png);
+  background: url(../images/p135_ok_btn_focus.png);
   z-index: 5;
 }
 
@@ -453,7 +453,7 @@ body {
 .container .op-btn.focus {
   width: 165px;
   height: 70px;
-  background: url(../static/images/p135_open_focus.png);
+  background: url(../images/p135_open_focus.png);
   z-index: 5;
 }
 
@@ -465,7 +465,7 @@ body {
 .container .cl-btn.focus {
   width: 165px;
   height: 70px;
-  background: url(../static/images/p135_clos_focus.png);
+  background: url(../images/p135_clos_focus.png);
   z-index: 5;
 }
 
@@ -480,15 +480,15 @@ body {
 }
 
 .container .check1.nom {
-  background: url(../static/images/p135_check.gif);
+  background: url(../images/p135_check.gif);
 }
 
 .container .check1.focus {
-  background: url(../static/images/p135_check_focus.gif);
+  background: url(../images/p135_check_focus.gif);
 }
 
 .container .check1.eck {
-  background: url(../static/images/p135_checked.gif);
+  background: url(../images/p135_checked.gif);
   z-index: 5;
 }
 
@@ -500,11 +500,11 @@ body {
 }
 
 .container .status-icon.icon-fail {
-  background: url(../static/images/p135_icon_fail.png);
+  background: url(../images/p135_icon_fail.png);
 }
 
 .container .status-icon.icon-succeed {
-  background: url(../static/images/p135_icon_succeed.png);
+  background: url(../images/p135_icon_succeed.png);
 }
 
 .container .status-info {
@@ -563,12 +563,12 @@ body {
 }
 
 .container .btn-next.nom {
-  background: url(../static/images/p135_btn_next.png);
+  background: url(../images/p135_btn_next.png);
   z-index: 1;
 }
 
 .container .btn-next.focus {
-  background: url(../static/images/p135_btn_next_focus.png);
+  background: url(../images/p135_btn_next_focus.png);
   z-index: 5;
 }
 
@@ -605,12 +605,12 @@ body {
 }
 
 .container .credit-bx .focus {
-  background: url(../static/images/p135_btn_credit_focus.gif);
+  background: url(../images/p135_btn_credit_focus.gif);
   z-index: 2;
 }
 
 .container .credit-bx .active {
-  background: url(../static/images/p135_btn_credit_active.png);
+  background: url(../images/p135_btn_credit_active.png);
   z-index: 1;
 }
 
@@ -666,15 +666,15 @@ body {
 }
 
 .container .btn-dredge.nom {
-  background: url(../static/images/p135_btn_dredge.png);
+  background: url(../images/p135_btn_dredge.png);
 }
 
 .container .btn-dredge.focus {
-  background: url(../static/images/p135_btn_dredge_focus.png);
+  background: url(../images/p135_btn_dredge_focus.png);
 }
 
 .container .btn-dredge.not {
-  background: url(../static/images/p135_btn_dredge_not.png);
+  background: url(../images/p135_btn_dredge_not.png);
 }
 
 .container .title-name {
@@ -722,11 +722,11 @@ body {
 }
 
 .container .topup-btn.nom {
-  background: url(../static/images/p135_topup_btn.png);
+  background: url(../images/p135_topup_btn.png);
 }
 
 .container .topup-btn.focus {
-  background: url(../static/images/p135_topup_btn_focus.png);
+  background: url(../images/p135_topup_btn_focus.png);
 }
 
 .container .topup-btn.text {
@@ -752,7 +752,7 @@ body {
   top: 274px;
   width: 180px;
   height: 40px;
-  background: url(../static/images/p135_input_bg.png);
+  background: url(../images/p135_input_bg.png);
 }
 
 .container .ipt-text1 {
@@ -768,7 +768,7 @@ body {
   height: 60px;
   left: 147px;
   top: 274px;
-  background: url(../static/images/p135_input_bg_focus3.png);
+  background: url(../images/p135_input_bg_focus3.png);
 }
 
 .container .btn-ok {
@@ -782,11 +782,11 @@ body {
 }
 
 .container .btn-ok.nom {
-  background: url(../static/images/p135_ok_btn.png);
+  background: url(../images/p135_ok_btn.png);
 }
 
 .container .btn-ok.focus {
-  background: url(../static/images/p135_ok_btn_focus.png);
+  background: url(../images/p135_ok_btn_focus.png);
 }
 
 .container .cont-text {
@@ -810,7 +810,7 @@ body {
   top: 334px;
   width: 580px;
   height: 2px;
-  background: url(../static/images/p135_line.png);
+  background: url(../images/p135_line.png);
 }
 
 .container .pg {
@@ -824,11 +824,11 @@ body {
 }
 
 .container .prev.nom {
-  background: url(../static/images/p135_pg_prev.png);
+  background: url(../images/p135_pg_prev.png);
 }
 
 .container .prev.focus {
-  background: url(../static/images/p135_pg_prev_focus.png);
+  background: url(../images/p135_pg_prev_focus.png);
 }
 
 .container .pg.next {
@@ -837,11 +837,11 @@ body {
 }
 
 .container .next.nom {
-  background: url(../static/images/p135_pg_next.png);
+  background: url(../images/p135_pg_next.png);
 }
 
 .container .next.focus {
-  background: url(../static/images/p135_pg_next_focus.png);
+  background: url(../images/p135_pg_next_focus.png);
 }
 
 .container .page {
@@ -878,11 +878,11 @@ body {
 }
 
 .container .btn.btn-withhold.nom {
-  background: url(../static/images/btn_withhold.jpg);
+  background: url(../images/btn_withhold.jpg);
 }
 
 .container .btn.btn-withhold.focus {
-  background: url(../static/images/btn_withhold_focus.jpg);
+  background: url(../images/btn_withhold_focus.jpg);
 }
 
 .container .icon-account {
@@ -890,7 +890,7 @@ body {
   height: 31px;
   left: 30px;
   top: 64px;
-  background: url(../static/images/p135_account_icon.jpg);
+  background: url(../images/p135_account_icon.jpg);
 }
 
 .container .icon-account-02 {
@@ -898,7 +898,7 @@ body {
   height: 31px;
   left: 30px;
   top: 26px;
-  background: url(../static/images/p135_account_icon.jpg);
+  background: url(../images/p135_account_icon.jpg);
 }
 
 .container .icon-account-01 {
@@ -906,7 +906,7 @@ body {
   height: 31px;
   left: 30px;
   top: 26px;
-  background: url(../static/images/p135_account_icon.jpg);
+  background: url(../images/p135_account_icon.jpg);
 }
 
 .container .bx-check-01 {
@@ -937,7 +937,7 @@ body {
   left: 0;
   width: 640px;
   height: 52px;
-  background: url(../static/images/p135_footer_bg.jpg);
+  background: url(../images/p135_footer_bg.jpg);
 }
 
 .footer .img {
@@ -951,11 +951,11 @@ body {
 }
 
 .footer .btn-index.nom {
-  background: url(../static/images/p135_footer_index_07.jpg);
+  background: url(../images/p135_footer_index_07.jpg);
 }
 
 .footer .btn-index.focus {
-  background: url(../static/images/p135_footer_index_focus_07.jpg);
+  background: url(../images/p135_footer_index_focus_07.jpg);
   z-index: 5;
 }
 
@@ -965,11 +965,11 @@ body {
 }
 
 .footer .btn-home.nom {
-  background: url(../static/images/p135_footer_home_08.jpg);
+  background: url(../images/p135_footer_home_08.jpg);
 }
 
 .footer .btn-home.focus {
-  background: url(../static/images/p135_footer_home_focus_08.jpg);
+  background: url(../images/p135_footer_home_focus_08.jpg);
   z-index: 5;
 }
 
@@ -979,11 +979,11 @@ body {
 }
 
 .footer .btn-back.nom {
-  background: url(../static/images/p135_footer_back_09.jpg);
+  background: url(../images/p135_footer_back_09.jpg);
 }
 
 .footer .btn-back.focus {
-  background: url(../static/images/p135_footer_back_focus_09.jpg);
+  background: url(../images/p135_footer_back_focus_09.jpg);
   z-index: 5;
 }
 
