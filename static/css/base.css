@@ -751,7 +751,7 @@ body {
   top: 274px;
   width: 230px;
   height: 60px;
-  background: url(../images/p135_input_bg.png);
+  background: url(../images/p135_input_bg.png) 0 0 no-repeat;
 }
 
 .container .ipt-text1 {
