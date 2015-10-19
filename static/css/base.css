@@ -744,14 +744,13 @@ body {
 
 .container .ipt-text {
   font-size: 26px;
-  line-height: 40px;
-  height: 26px;
-  padding: 10px 25px;
+  line-height: 60px;
+  padding: 0 25px;
   border: none;
   left: 147px;
   top: 274px;
   width: 180px;
-  height: 40px;
+  height: 60px;
   background: url(../images/p135_input_bg.png);
 }
 
